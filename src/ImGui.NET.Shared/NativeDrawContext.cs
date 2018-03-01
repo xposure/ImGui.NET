@@ -1,4 +1,8 @@
-﻿using System.Numerics;
+﻿#if MONOGAME
+using Microsoft.Xna.Framework;
+#else
+using System.Numerics;
+#endif
 
 namespace ImGuiNET
 {

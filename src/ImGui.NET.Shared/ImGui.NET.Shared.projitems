@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>f5a88731-f6fe-4d89-803d-ce5cbfa82411</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>ImGui.NET.Shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)ArrayPool.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ColorEditFlags.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ColorTarget.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ComboFlags.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Condition.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DragDropFlags.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DrawCmd.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DrawData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DrawList.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DrawVert.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FocusedFlags.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Font.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FontAtlas.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FontConfig.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GuiKey.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)HoveredFlags.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ImGui.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ImGuiNative.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ImRect.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ImVector.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)InputTextFlags.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IntStructs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IO.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MouseCursorKind.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)NativeContext.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)NativeDrawContext.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)NativeIO.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)NativePayload.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)NativeSimpleColumns.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)NativeStyle.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)NativeTestEditState.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)NativeWindow.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Payload.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SelectableFlags.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Storage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Style.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)StyleVar.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TextEditCallback.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TextEditCallbackData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TextInputBuffer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TreeNodeFlags.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)WindowFlags.cs" />
+  </ItemGroup>
+</Project>

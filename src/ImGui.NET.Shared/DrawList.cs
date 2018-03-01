@@ -1,8 +1,13 @@
 ﻿using System;
 using System.Buffers;
-using System.Numerics;
 using System.Runtime.InteropServices;
 using System.Text;
+
+#if MONOGAME
+using Microsoft.Xna.Framework;
+#else
+using System.Numerics;
+#endif
 
 namespace ImGuiNET
 {

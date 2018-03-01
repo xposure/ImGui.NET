@@ -1,7 +1,12 @@
 ﻿using System;
-using System.Numerics;
 using System.Runtime.InteropServices;
 using System.Diagnostics;
+
+#if MONOGAME
+using Microsoft.Xna.Framework;
+#else
+using System.Numerics;
+#endif
 
 namespace ImGuiNET
 {
