@@ -9,7 +9,6 @@
     <Import_RootNamespace>ImGui.NET.Shared</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="$(MSBuildThisFileDirectory)ArrayPool.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ColorEditFlags.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ColorTarget.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ComboFlags.cs" />
