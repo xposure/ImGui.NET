@@ -9,11 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImGui.NET.SampleProgram", "
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ImGui.NET.Shared", "ImGui.NET.Shared\ImGui.NET.Shared.shproj", "{F5A88731-F6FE-4D89-803D-CE5CBFA82411}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImGui.NET.MonoGame", "ImGui.NET.MonoGame\ImGui.NET.MonoGame.csproj", "{A4FF4B8B-73A8-4D00-8ED9-62912FE87A98}"
-EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		ImGui.NET.Shared\ImGui.NET.Shared.projitems*{a4ff4b8b-73a8-4d00-8ed9-62912fe87a98}*SharedItemsImports = 4
 		ImGui.NET.Shared\ImGui.NET.Shared.projitems*{f5a88731-f6fe-4d89-803d-ce5cbfa82411}*SharedItemsImports = 13
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +26,6 @@ Global
 		{0FBA4057-7708-4FCC-B0D2-D049E647DC5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0FBA4057-7708-4FCC-B0D2-D049E647DC5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0FBA4057-7708-4FCC-B0D2-D049E647DC5A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A4FF4B8B-73A8-4D00-8ED9-62912FE87A98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A4FF4B8B-73A8-4D00-8ED9-62912FE87A98}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A4FF4B8B-73A8-4D00-8ED9-62912FE87A98}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A4FF4B8B-73A8-4D00-8ED9-62912FE87A98}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
